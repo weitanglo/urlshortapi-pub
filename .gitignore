@@ -1,0 +1,4 @@
+*.http
+.aws-sam
+.aws-composer
+.vscode

@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "shortnerUrl"
+resolve_s3 = true
+s3_prefix = "shortnerUrl"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+parameter_overrides = "StageName=\"dev\" subDomain=\"url.loweitang.com\" HostedZoneId=\"Z06146261K6JRFZIWWUX1\" fullQLSubdomain=\"url.loweitang.com.\" fullQLDomainName=\"loweitang.com.\" domainName=\"loweitang.com\" secretName=\"firebase-url-shortner\" SenderEmail=\"low.texeg@gmail.com\" emailRegion=\"ap-northeast-1\" jwtIssuer=\"https://securetoken.google.com/\" authorizerAudience=\"short-url-c6ea4\""
